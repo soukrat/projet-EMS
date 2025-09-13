@@ -31,15 +31,6 @@ import Compteur2 from "views/Compteur2/Compteur2.js";
 import Compteur3 from "views/Compteur3/Compteur3.js";
 import Compteur4 from "views/Compteur4/Compteur4.js";
 import Compteur5 from "views/Compteur5/Compteur5.js";
-import Compteur6 from "views/Compteur6/Compteur6.js";
-import Compteur7 from "views/Compteur7/Compteur7.js";
-import Compteur8 from "views/Compteur8/Compteur8.js";
-import Compteur9 from "views/Compteur9/Compteur9.js";
-import Compteur10 from "views/Compteur10/Compteur10.js";
-import Compteur11 from "views/Compteur11/Compteur11.js";
-import Compteur12 from "views/Compteur12/Compteur12.js";
-import Compteur13 from "views/Compteur13/Compteur13.js";
-import Csv from "views/Csv/Csv.js";
 // import UserProfile from "views/UserProfile/UserProfile.js";
 // import TableList from "views/TableList/TableList.js";
 // import Typography from "views/Typography/Typography.js";
@@ -88,69 +79,6 @@ const dashboardRoutes = [
     name: "Compteur 5",
     icon: Power,
     component: Compteur5,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur6",
-    name: "Compteur 6",
-    icon: Power,
-    component: Compteur6,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur7",
-    name: "Compteur 7",
-    icon: Power,
-    component: Compteur7,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur8",
-    name: "Compteur 8",
-    icon: Power,
-    component: Compteur8,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur9",
-    name: "Compteur 9",
-    icon: Power,
-    component: Compteur9,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur10",
-    name: "Compteur 10",
-    icon: Power,
-    component: Compteur10,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur11",
-    name: "Compteur 11",
-    icon: Power,
-    component: Compteur11,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur12",
-    name: "Compteur 12",
-    icon: Power,
-    component: Compteur12,
-    layout: "/admin",
-  },
-  {
-    path: "/Compteur13",
-    name: "Compteur 13",
-    icon: Power,
-    component: Compteur13,
-    layout: "/admin",
-  },
-  {
-    path: "/Csv",
-    name: "Télécharger CSV",
-    icon: GetApp,
-    component: Csv,
     layout: "/admin",
   },
 ];
